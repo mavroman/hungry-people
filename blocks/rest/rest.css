@@ -1,0 +1,20 @@
+@import url(./__title/rest__title.css);
+
+.rest {
+  max-width: 100%;
+  background: url(../../images/specialty-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.rest_specialties-bg {
+  background: url(../../images/specialtys-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.rest_private {
+  background: url(../../images/private-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+
+

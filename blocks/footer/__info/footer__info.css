@@ -1,0 +1,16 @@
+.footer__info {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 44px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__info {
+    padding: 22px;
+  }
+}

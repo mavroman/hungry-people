@@ -1,0 +1,11 @@
+@import url(./__input/reserve-form__input.css);
+
+.reserve-form {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 601px) {
+  .reserve-form {
+    text-align: center;
+  }
+}

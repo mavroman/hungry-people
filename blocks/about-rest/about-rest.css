@@ -1,0 +1,35 @@
+.about-rest {
+  max-width: 1280px;
+  display: flex;
+  margin: 100px auto;
+}
+
+.about-rest_image {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.about-rest_reserve {
+  margin: 50px auto;
+}
+
+.about-rest_private {
+  max-width: 1280px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .about-rest {
+    margin: 0 20px;
+  }
+}
+
+
+@media screen and (max-width: 790px) {
+ .about-rest_private {
+   display: block;
+   max-width: 500px;
+   margin: 0 auto;
+ }
+}

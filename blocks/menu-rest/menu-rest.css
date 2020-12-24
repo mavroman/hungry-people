@@ -1,0 +1,29 @@
+@import url(./__item/menu-rest__item.css);
+@import url(./__explanation/menu-rest__explanation.css);
+
+.menu-rest {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
+  max-width: 1280px;
+  margin: 51px auto 100px auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-rest {
+    grid-column-gap: 8px;
+    margin-left: 20px;
+   
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu-rest {
+    display: block;
+    margin-left: 10px;
+  }
+}
+
+/* @media screen and (max-width: 767px) {
+
+} */

@@ -1,0 +1,13 @@
+.button-scroll {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.button-scroll:hover {
+  opacity: 0.5;
+}

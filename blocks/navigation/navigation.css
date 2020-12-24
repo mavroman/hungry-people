@@ -1,0 +1,12 @@
+.navigation {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .navigation {
+        display: none;
+    }
+}

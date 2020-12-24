@@ -1,0 +1,11 @@
+.about-group__black_two {
+    transform: rotate(180deg);
+    padding-bottom: 0;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .about-group__black_two {
+      margin: 0 0 0 auto
+    }
+  }

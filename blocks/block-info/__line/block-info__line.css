@@ -1,0 +1,7 @@
+.block-info__line {
+  width: 60px;
+  height: 7px;
+  margin: 0 auto;
+  background: #E8C300;
+  border-radius: 50px;
+}

@@ -1,0 +1,24 @@
+@import url(./_two/about-group__black_two.css);
+
+.about-group__black {
+  background-color: black;
+  color: white;
+  writing-mode: tb-rl;
+  font-family: Banny;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-right: 26px;
+  padding-left: 26px;
+}
+
+@media screen and (max-width: 1119px) {
+  .about-group__black {
+    height: 340px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .about-group__black {
+    height: 310px;
+  }
+}

@@ -1,0 +1,15 @@
+@import url(./__mode/info__mode.css);
+
+.info {
+    display: flex;
+    max-width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1150px) {
+    .info {
+        height: auto;
+    }
+  }

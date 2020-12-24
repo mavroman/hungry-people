@@ -1,0 +1,12 @@
+.info__mode {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 12px;
+  color: white;
+  writing-mode: tb-rl; /* текст по вертикали*/
+  transform: rotate(180deg);
+  text-align: center;
+  
+}

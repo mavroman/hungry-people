@@ -1,0 +1,22 @@
+@import url(./__title/block-info__title.css);
+@import url(./__subtitle/block-info__subtitle.css);
+@import url(./__line/block-info__line.css);
+@import url(./__button/block-info__button.css);
+
+
+
+
+.block-info {
+    color: white;
+    flex-basis: 50%;
+    padding-top: 200px;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 1150px) {
+    .block-info {
+        padding-top: 150px;
+    }
+  }

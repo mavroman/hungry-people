@@ -1,0 +1,19 @@
+@import url(./__title/about-us__title.css);
+@import url(./__subtitle/about-us__subtitle.css);
+@import url(./__subtitle-text/about-us__subtitle-text.css);
+
+.about-us {
+  max-width: 600px;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 1185px) {
+  .about-us {
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 1119px) {
+  .about-us {
+    margin: 0 auto;
+  }
+}

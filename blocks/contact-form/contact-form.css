@@ -1,0 +1,13 @@
+@import url(./__item/contact-form__item.css);
+
+.contact-form {
+  display: grid;
+  grid-template-areas: "a b c" "d d d";
+  gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .contact-form{
+    grid-template-areas: "a a a" "b b b" "c c c" "d d d";
+  }
+}

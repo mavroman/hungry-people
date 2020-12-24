@@ -1,0 +1,43 @@
+.button {
+  width: 200px;
+  height: 60px;
+  background: #e8c300;
+  border: 0;
+  color: white;
+  border-radius: 5px;
+  margin-top: 31px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button_explore {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  margin-right: 0;
+}
+
+.button_explore:hover {
+  opacity: 0.9;
+  background: #e8c300;
+}
+
+.button_reserve {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.button_contact {
+}
+
+@media screen and (max-width: 999px) {
+  .button {
+    margin-right: auto;
+  }
+}
+

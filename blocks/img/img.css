@@ -1,0 +1,24 @@
+@import url(./__item/img__item.css);
+
+.img {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 360px);
+}
+
+@media screen and (max-width: 1439px) {
+  .img {
+    max-width: 740px;
+    grid-template-columns: repeat(2, 360px);
+    grid-gap: 10px;
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img {
+    display: block;
+    text-align: center;
+  }
+}

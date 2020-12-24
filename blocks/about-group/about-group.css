@@ -1,0 +1,114 @@
+@import url(./__square/about-group__square.css);
+@import url(./__black/about-group__black.css);
+
+.about-group {
+  min-width: 475px;
+  height: 475px;
+  background: url(../../images/about-picture.jpg) no-repeat;
+  background-size: contain;
+  border-radius: 5px;
+}
+
+.about-group_mirror-block {
+  background: url(../../images/team.jpg) no-repeat;
+  background-size: contain;
+  margin: 0 72px 100px 190px;
+  min-width: 475px;
+}
+
+.about-group_reserve {
+  background: url(../../images/reserve-img.jpg) no-repeat;
+}
+
+.about-group_specialties {
+  background: url(../../images/chocolate\ pancakes.png) no-repeat;
+  background-size: contain;
+  margin: 0 auto 100px 190px;
+  min-width: 475px;
+  min-height: 475px;
+}
+
+.about-group_private-one {
+  background: url(../../images/private1.jpg) no-repeat;
+  background-size: contain;
+  /* margin: 0 100px 100px 190px; */
+  max-width: 475px;
+  max-height: 475px;
+  margin-right: 50px;
+  display: flex;
+}
+
+.about-group_private-two {
+  background: url(../../images/Private2.jpg) no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .about-group_mirror-block {
+    margin: 0 72px 100px 30px;
+  }
+
+  .about-group_specialties {
+    margin: 0 72px 100px 80px;
+  }
+
+  .about-group {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .about-group_reserve {
+    display: none;
+  }
+
+  .about-group_private-one {
+    min-width: 360px;
+    max-height: 400px;
+  }
+
+  .about-group_private-two {
+    min-width: 360px;
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .about-group_first {
+    display: none;
+  }
+
+  .about-group_mirror-block {
+    display: none;
+  }
+
+  .about-group_reserve {
+    display: none;
+  }
+
+  .about-group_specialties {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-group_private-two {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .about-group_private-one {
+    min-width: 320px;
+    max-height: 320px;
+  }
+
+  .about-group_private-two {
+    min-width: 320px;
+    max-height: 320px;
+    margin-left: 0;
+  }
+}

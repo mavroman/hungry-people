@@ -1,0 +1,21 @@
+.about-group__square {
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  margin: 113px auto auto 330px;
+  border: 15px solid #e8c300;
+}
+
+.about-group__square_mirror {
+  margin-left: -25%;
+}
+
+.about-group__square_private {
+  margin: 113px -25% auto auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .about-group__square {
+    display: none;
+  }
+}

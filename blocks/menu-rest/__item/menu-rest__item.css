@@ -1,0 +1,14 @@
+.menu-rest__item {
+  max-width: 363px;
+  max-height: 66px;
+  font-family: "Banny Round";
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-rest__item {
+    padding: 7px;
+  }
+}
