@@ -5,8 +5,8 @@
     margin: 50px auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 475px) {
     .nav-menu {
-      display: none;
+      margin: 20px 0;
     }
   }

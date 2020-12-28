@@ -23,3 +23,8 @@
   height: 120px;
 }
 
+@media screen and (max-width: 375px) {
+  .contact-form__item_d {
+    height: 80px;
+  }
+}

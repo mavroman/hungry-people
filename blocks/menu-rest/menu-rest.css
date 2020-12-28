@@ -9,6 +9,26 @@
   margin: 51px auto 100px auto;
 }
 
+.menu-rest_soupe {
+  display: none;
+}
+.menu-rest_pasta {
+  display: none;
+}
+.menu-rest_desert {
+  display: none;
+}
+.menu-rest_wine {
+  display: none;
+}
+.menu-rest_beer {
+  display: none;
+}
+.menu-rest_drinks {
+  display: none;
+}
+
+
 @media screen and (max-width: 1024px) {
   .menu-rest {
     grid-column-gap: 8px;
@@ -19,11 +39,13 @@
 
 @media screen and (max-width: 767px) {
   .menu-rest {
-    display: block;
+    grid-template-columns: repeat(1, 1fr);
     margin-left: 10px;
   }
 }
 
-/* @media screen and (max-width: 767px) {
-
-} */
+@media screen and (max-width: 475px) {
+  .menu-rest {
+    margin-top: 20px;
+  }
+}

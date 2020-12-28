@@ -9,6 +9,14 @@
 
 @media screen and (max-width: 767px) {
   .menu-rest__item {
+    font-size: 16px;
     padding: 7px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .menu-rest__item {
+    font-size: 14px;
+    padding: 0;
   }
 }

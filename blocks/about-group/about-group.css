@@ -109,6 +109,6 @@
   .about-group_private-two {
     min-width: 320px;
     max-height: 320px;
-    margin-left: 0;
+    margin-left: 20px;
   }
 }
